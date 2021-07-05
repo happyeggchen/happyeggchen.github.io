@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <link href="/fonts/mdi.describe" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css"  media="screen,projection"/>
+    <script async type="text/javascript" src="/js/JS-CSS-Class-Switch-with-Memory.js"></script>
+    <script type="text/javascript" src="/js/JS-CSS-Class-Settings-Recall-on-load.js"></script>
+    <style>
+      html.dark {
+        --color-html: #0e0b0b ;
+        --color-body: #1a1010 ;
+        --color-text: #d1d1d1 ;
+        --color-link: #4fbcff ;
+        --color-selected-text: #000 ;
+        --color-selected-bg: #CF7 ;
+        }
+    </style>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+  <nav class="white">
+  <a internal href="/" class="center brand-logo flow-text black-text">Bluelakelab</a>
+  <ul id="slide-out" class="sidenav waves-effect waves-grey">
+    <div class="container">
+      
+      
+      <blockquote class="black-text"><b>Bluelakelab</b></blockquote>
+    </div>
+    <li><a href="/">Main</a></li>
+    
+             
+                 
+                 
+             
+                 
+                 
+                 <li><a class="waves-effect waves-grey" href="/pages/about">About</a></li>
+                 
+             
+                 
+                 
+                 <li><a class="waves-effect waves-grey" href="/pages/blog">Blogs</a></li>
+                 
+             
+                 
+                 
+             
+                 
+                 
+                 <li><a class="waves-effect waves-grey" href="/pages/tags">Tags</a></li>
+                 
+             
+                 
+                 
+             
+    
+    <li>
+      <a class="waves-effect waves-grey" onclick="ClassSwitch('html' , 'grey' , 'ColorMode');">
+        night mode
+      </a>
+    </li>
+   </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large black-text"><i class="material-icons">menu</i></a>
+</nav>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+  });
+</script>
+
+    <body>
+      <br><br>
+          
+
+          <br><br>
+        </div>
+        <br><br>
+    </body>
+</html>
